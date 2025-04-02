@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <Title>HOME</Title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>BOOK STORE</h1>
+ <a href="cart.html"><button type="button"id="cart" >🛒</button></a>
+ <p id="uid"></p>
+ <div class="main">
+ <div class="c1">
+ <img src="images (1).jpeg" id="imag1">
+ <p id="p1">All the light we cannot see</p>
+ <p>$5.11</p>
+ <button type="button">BUY NOW</button>
+ <button type="button" onclick="addtocart('All the light we cannot see')">Add to Cart</button>
+</div>
+<div class="c2">
+    <img src="images.jpeg" id="img2">
+    <p id="p2">China Mystery</p>
+    <p>$35.06</p>
+    <button type="button">BUY NOW</button>
+    <button type="button"onclick="addtocart('China mystery')">Add to Cart</button>
+</div>
+<div class="c3">
+    <img src="Wings_of_Fire_by_A_P_J_Abdul_Kalam_Book_Cover.jpg" id="img3">
+    <p id="p3">Wings of Fire</p>
+    <p>$25</p>
+    <button type="button">BUY NOW</button>
+    <button type="button"onclick="addtocart('Wings of fire')">Add to Cart</button>
+</div>
+<div class="c4">
+    <img src="A1NfEjobJnL-691x1024.jpg" id="img4">
+    <p id="p4">Solar Bones</p>
+    <p>$81.81</p>
+    <button type="button">BUY NOW</button>
+    <button type="button"onclick="addtocart('solar bones')">Add to Cart</button>
+</div>
+</div>
+ <script src="script.js"></script>
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+            startCountdown(); 
+        });
+ </script>   
+</body>
+</html>
